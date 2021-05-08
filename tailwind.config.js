@@ -6,11 +6,28 @@ module.exports = {
       pink: '#F78DA7',
       darkpink: '#61045F',
     },
+    screens: {
+      'xs': '520px',
+      
+      'xxs': '420px',
+      
+      'xxxs': '320px',
+
+      'sm': '640px',
+
+      'md': '768px',
+
+      'lg': '1024px',
+
+      'xl': '1280px',
+
+      '2xl': '1536px',
+    },
     extend: {
       fontFamily: {
         'poppins': ['Poppins'],
         'manrope': ['Manrope'],
-      },
+      }
     },
   },
   variants: {
