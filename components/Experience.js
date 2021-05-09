@@ -5,7 +5,7 @@ import UpViolet from "../public/upviolet.svg";
 import EwarRed from "../public/ewarred.svg";
 import EwarLogo from "../public/ewar.svg";
 import ShopayLogo from "../public/shopay.png";
-import ShopayBlue from "../public/shopayblue.svg"
+import ShopayBlue from "../public/shopayblue.svg";
 
 const Point = ({ text }) => (
   <div className="flex flex-row items-start mt-2">
@@ -38,7 +38,7 @@ const Experience = () => {
             Senior Product Engineer
           </p>
           <p className="font-manrope text-sm font-extralight">
-            Sept 2020 - Present
+            September 2020 - Present
           </p>
           <div className="mt-8">
             <Point text="Built Prime Mobile App from scratch." />
@@ -77,11 +77,9 @@ const Experience = () => {
           >
             Ewar Games
           </p>
-          <p className="font-manrope text-base font-light">
-            Software Engineer
-          </p>
+          <p className="font-manrope text-base font-light">Software Engineer</p>
           <p className="font-manrope text-sm font-extralight">
-            April 2019 - Sept 2020
+            April 2019 - September 2020
           </p>
           <div className="mt-8">
             <Point text="Responsible for the Development of end-to-end features including Front-End and Back-End for EWar Games Platform." />
@@ -119,11 +117,9 @@ const Experience = () => {
           >
             Shopay Online Services
           </p>
-          <p className="font-manrope text-base font-light">
-            Software Engineer
-          </p>
+          <p className="font-manrope text-base font-light">Software Engineer</p>
           <p className="font-manrope text-sm font-extralight">
-            April 2019 - Sept 2020
+            September 2018 - March 2019
           </p>
           <div className="mt-8">
             <Point text="Developed the Mobile App UI of Shopay Harbor Application in Apache Cordova Framework." />
@@ -135,7 +131,7 @@ const Experience = () => {
               </p>
             </div>
             <p className="font-manrope text-sm font-light ml-6 mt-1 text-titlegrey">
-              HTML, CSS, JavaScript, Apache Cordova
+              HTML, CSS, JavaScript, jQuery, Apache Cordova
             </p>
           </div>
         </div>
