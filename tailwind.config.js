@@ -5,6 +5,7 @@ module.exports = {
     colors: {
       pink: '#F78DA7',
       darkpink: '#61045F',
+      titlegrey: '#363636'
     },
     screens: {
       'xs': '520px',

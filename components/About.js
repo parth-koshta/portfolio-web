@@ -4,6 +4,7 @@ import { SiPython, SiDjango, SiGraphql, SiMongodb } from "react-icons/si";
 import { FaReact, FaAws, FaDocker } from "react-icons/fa";
 import { IoLogoNodejs } from "react-icons/io";
 import { GrMysql } from "react-icons/gr";
+import AboutWave from '../public/about.svg';
 
 const Tech = ({ icon, name }) => {
   return (
@@ -18,14 +19,14 @@ const Tech = ({ icon, name }) => {
 
 const About = () => {
   return (
-    <div>
-      <p className="font-manrope text-xl text-darkpink text-center py-12 px-4 font-bold md:text-4xl md:mt-10">
+    <div className="relative">
+      <p className="font-poppins text-3xl text-titlegrey text-center py-12 px-4 font-bold md:text-4xl md:mt-10">
         I enjoy building apps for Web and Mobile
       </p>
       <p className="font-manrope font-light text-sm text-darkpink underline text-center pt-4 pb-8 md:text-2xl">
         Some tools and technologies I use:
       </p>
-      <div className="flex flex-row justify-center items-start flex-wrap px-4 sm:px-20 md:px-40 xl:px-80">
+      <div className="flex flex-row justify-center items-start flex-wrap px-4 z-10 relative sm:px-20 md:px-40 xl:px-80">
         <Tech
           icon={() => <DiJsBadge fontSize={30} style={{ color: "#61045F" }} />}
           name="JavaScript"
@@ -77,7 +78,15 @@ const About = () => {
           name="MongoDB"
         />
       </div>
-      <div style={{clipPath: 'polygon(0 50%, 100% 0%, 100% 100%, 0% 100%)', background: 'linear-gradient(90deg, rgba(247,141,167,.7) 0%, rgba(97,4,95,.7) 100%)'}} className='h-80 w-full mt-16' />
+      {/* <div style={{clipPath: 'polygon(0 50%, 100% 0%, 100% 100%, 0% 100%)', background: 'linear-gradient(90deg, rgba(247,141,167,.7) 0%, rgba(97,4,95,.7) 100%)'}} className='h-80 w-full mt-16' /> */}
+      <div className="absolute bottom-0 w-full left-0 md:-bottom-20">
+          <img
+            src={AboutWave}
+            style={{ height: "100%", width: "100%" }}
+            alt="about wave"
+            draggable="false"
+          />
+        </div>
     </div>
   );
 };

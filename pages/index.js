@@ -1,5 +1,6 @@
 import Head from "next/head";
 import About from "../components/About";
+import Experience from "../components/Experience";
 import Home from "../components/Home";
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
       </Head>
       <Home />
       <About />
+      <Experience />
     </div>
   );
 };
