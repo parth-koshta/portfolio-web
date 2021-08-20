@@ -17,8 +17,11 @@ const Contact = () => {
             <div className="flex flex-col justify-center items-center">
                 <img src={Dp} style={{ width: "10rem" }} />
 
+                <p className="font-poppins mt-6 mb-4 font-light text-xs text-titlegrey underline cursor-pointer" onClick={() => openLink("mailto:parthkoshta3@gmail.com")}>
+                    parthkoshta3@gmail.com
+                </p>
              
-                <div className="flex mt-8 mb-8 w-40 flex flex-row justify-between">
+                <div className="flex mt-2 mb-8 w-40 flex flex-row justify-between">
                     <MdEmail fontSize={20} className='cursor-pointer' onClick={() => openLink("mailto:parthkoshta3@gmail.com")} style={{ color: "#363636" }} />
                     <FaLinkedinIn fontSize={20} className='cursor-pointer' onClick={() => openLink('https://www.linkedin.com/in/parthkoshta')} style={{ color: "#363636" }} />
                     <VscGithub fontSize={20} className="cursor-pointer" onClick={() => openLink('https://github.com/parth-koshta')} style={{ color: "#363636" }} />
