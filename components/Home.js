@@ -42,7 +42,7 @@ const Home = () => {
           </div>
           <p className="font-manrope text-base font-light mx-4 mt-8 text-center text-darkpink sm:w-1/2 sm:mt-10">
             I'm a Software Engineer based in Bangalore, India. I specialize in
-            building websites and cross platform mobile apps and everything
+            building websites, cross platform mobile apps and everything
             around it.
           </p>
         </div>
